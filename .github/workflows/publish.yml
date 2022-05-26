@@ -1,4 +1,4 @@
--name: Build plugin
+-name: publish
 
 on:
   push:
