@@ -1,9 +1,9 @@
 {
-  "name": "logseq-github-theme",
-  "version": "1.1.0",
-  "description": "😻 GitHub themes for Logseq.",
-  "author": "Yue Yang <g1enyy0ung@gmail.com>",
-  "repository": "g1eny0ung/logseq-github-theme",
+  "name": "logseq-cusgit-theme",
+  "version": "1.0.0",
+  "description": "Customized Github like theme",
+  "author": "Daniel Webber(mendax1234(",
+  "repository": "mendax1234/logseq-cusgit-theme",
   "scripts": {
     "build": "gulp build",
     "watch": "gulp watch"
@@ -11,35 +11,12 @@
   "logseq": {
     "themes": [
       {
-        "name": "GitHub Light Default",
-        "url": "./light.css",
-        "description": "😻 GitHub Light theme for Logseq.",
-        "mode": "light"
-      },
-      {
-        "name": "GitHub Dark Default",
-        "url": "./dark.css",
-        "description": "😻 GitHub Dark theme for Logseq.",
-        "mode": "dark"
-      },
-      {
-        "name": "GitHub Dark Dimmed",
-        "url": "./dark-dimmed.css",
-        "description": "😻 GitHub Dark Dimmed theme for Logseq.",
-        "mode": "dark"
-      },
-      {
-        "name": "GitHub Light Default With Dark",
-        "url": "./light-dark.css",
-        "description": "😻 GitHub Light/Dark theme for Logseq."
-      },
-      {
-        "name": "GitHub Light Default With Dark Dimmed",
-        "url": "./light-dark-dimmed.css",
-        "description": "😻 GitHub Light/Dark-Dimmed theme for Logseq."
+        "name": "Customized Github theme",
+        "url": "./custom.css",
+        "description": "Customized Github theme for logseq"
       }
     ],
-    "id": "logseq-github-theme"
+    "id": "logseq-cusgit-theme"
   },
   "devDependencies": {
     "gulp": "^4.0.2",
