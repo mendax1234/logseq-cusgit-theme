@@ -16,7 +16,8 @@
         "description": "Customized Github theme for logseq"
       }
     ],
-    "id": "logseq-cusgit-theme"
+    "id": "logseq-cusgit-theme",
+    "icon": "./icon.svg"
   },
   "devDependencies": {
     "gulp": "^4.0.2",
