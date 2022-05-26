@@ -1,2 +1,0 @@
-# logseq-cusgit-theme
- 
