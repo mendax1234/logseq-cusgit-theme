@@ -16,9 +16,10 @@ This is a clean theme for [Logseq](https://github.com/logseq/logseq), focusing o
 
 ## Screenshots
 
-The style is strongly inspired by [logseq-bujo-theme](https://github.com/PiotrSss/logseq-bujo-theme ) and [Notion](https://notion.so). The code is mainly based on bujo theme, and you may find the style really notion-like.
+The style is strongly inspired by [logseq-bonofix-theme](https://github.com/Sansui233/logseq-bonofix-theme) and [logseq-github-theme](https://github.com/g1eny0ung/logseq-github-theme). The code is mainly based on [logseq-github-theme](https://github.com/g1eny0ung/logseq-github-theme), and you may find the style really bonofix-like.
 
 ![Desktop](./media/Light.png)
+
 ![Desktop](./media/Dark.png)
 
 
