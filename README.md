@@ -55,7 +55,7 @@ Here are two ways of installing theme in Logseq.
 
 - Simple but functional colors
 
-- Remove border-bottom for heading2, and make `<hr>` slim for title partition in blockbody. 
+- Remove border-bottom for heading, and make `<hr>` slim for title partition in blockbody. 
 
 - Make tippy window like responsive card instead of filling the screen and obscuring text
 
@@ -89,6 +89,6 @@ npm install
 ## Thanks
 
 - [Logseq](https://github.com/logseq/logseq)
-- [logseq-bujo-theme](https://github.com/PiotrSss/logseq-bujo-theme) by PiotrSss
-- Dark mode of [Notion](https://notion.so)
+- [logseq-bonofix-theme](https://github.com/Sansui233/logseq-bonofix-theme) by [@Sansui233](https://github.com/Sansui233)
+- [logseq-github-theme](https://github.com/g1eny0ung/logseq-github-theme) by [@g1eny0ung](https://github.com/g1eny0ung)
 - All feedbacks from email and discord
