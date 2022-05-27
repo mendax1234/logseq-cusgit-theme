@@ -17,7 +17,7 @@
       }
     ],
     "id": "logseq-cusgit-theme",
-    "icon": "./icon.svg"
+    "icon": "./icon.png"
   },
   "devDependencies": {
     "gulp": "^4.0.2",
