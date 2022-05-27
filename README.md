@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img src="./media/icon.png"/>
+  <img src="./icon.png"/>
   <br>logseq-cusgit-theme<br>
 </h1>
 
