@@ -70,6 +70,10 @@ Here are two ways of installing theme in Logseq.
 
 - Round checkbox 
 
+- Customized Priority style
+
+  <img src="./media/priority.png" alt="Priority"/>
+
 ## How to build
 
 1. Install [node](https://nodejs.org/)
