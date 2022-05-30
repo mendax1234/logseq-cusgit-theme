@@ -62,15 +62,15 @@ Here are two ways of installing theme in Logseq.
 
 **Additional Styles**
 
-- Calender emoji before journal title  
+- Calender emoji before journal title. Credit[@Sansui233](https://github.com/Sansui233)
   <img src="./media/journal-title-emoji.png" alt="Journal Title Emoji" width="600px" />
 
-- Rounded tags  
+- Rounded tags. Credit[@g1eny0ung](https://github.com/g1eny0ung)
   <img src="./media/tag-label.png" alt="Tags" width="300px" />
 
-- Round checkbox 
+- Round checkbox. Credit[@Sansui233](https://github.com/Sansui233)
 
-- Customized Priority style
+- Customized Priority style. Credit[@pengx17](https://github.com/pengx17)
 
   <img src="./media/priority.png" alt="Priority"/>
 
@@ -96,4 +96,5 @@ npm install
 - [Logseq](https://github.com/logseq/logseq)
 - [logseq-bonofix-theme](https://github.com/Sansui233/logseq-bonofix-theme) by [@Sansui233](https://github.com/Sansui233)
 - [logseq-github-theme](https://github.com/g1eny0ung/logseq-github-theme) by [@g1eny0ung](https://github.com/g1eny0ung)
+- [logseq-dev-theme](https://github.com/pengx17/logseq-dev-theme) by [@pengx17](https://github.com/pengx17)
 - All feedbacks from email and discord
