@@ -499,7 +499,6 @@ a.priority[href="#/page/A" i],
 a[priority]::before,
 a.priority::before {
   transform: translateY(-1px);
-  /*border: 1px solid #eee;*/
   border-radius: 4px;
   font-size: 12px;
   font-weight: 600;
