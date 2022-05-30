@@ -473,9 +473,9 @@ a.priority {
 
 a[priority=A]::before,
 a.priority[href="#/page/A" i]:before {
-  content: "🟢";
-  background: var(--ct-success-color);
-  color: var(--ct-success-color-text);
+  content: "🔴";
+  background: var(--ct-warning-color) !important;
+  color: var(--ct-warning-color-text) !important;
 }
 
 a[priority=B]::before,
@@ -487,9 +487,9 @@ a.priority[href="#/page/B" i]:before {
 
 a[priority=C]::before,
 a.priority[href="#/page/C" i]:before {
-  content: "🔴";
-  background: var(--ct-warning-color) !important;
-  color: var(--ct-warning-color-text) !important;
+  content: "🟢";
+  background: var(--ct-success-color);
+  color: var(--ct-success-color-text);
 }
 
 a.priority[href="#/page/A" i],
