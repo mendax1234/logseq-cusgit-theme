@@ -63,9 +63,11 @@ Here are two ways of installing theme in Logseq.
 **Additional Styles**
 
 - Calender emoji before journal title. Credit[@Sansui233](https://github.com/Sansui233)
+
   <img src="./media/journal-title-emoji.png" alt="Journal Title Emoji" width="600px" />
 
 - Rounded tags. Credit[@g1eny0ung](https://github.com/g1eny0ung)
+
   <img src="./media/tag-label.png" alt="Tags" width="300px" />
 
 - Round checkbox. Credit[@Sansui233](https://github.com/Sansui233)
