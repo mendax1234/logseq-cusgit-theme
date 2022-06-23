@@ -77,7 +77,7 @@ Here are two ways of installing theme in Logseq.
   <img src="./media/priority.png" alt="Priority"/>
   
  - Cool query table style! Thanks[#5](https://github.com/mendax1234/logseq-cusgit-theme/issues/5)!
-  ![image](https://user-images.githubusercontent.com/62934294/175246755-236a7868-844c-48ff-bff9-91a99b77ca5a.png)
+  <img width="601" alt="image" src="https://user-images.githubusercontent.com/62934294/175247464-2447587a-9104-46c2-a991-970fd70c1882.png">
   <img width="601" alt="image" src="https://user-images.githubusercontent.com/62934294/175247006-7f615eda-49c4-4845-ad3b-adde6673d313.png">
 
 ## How to build
