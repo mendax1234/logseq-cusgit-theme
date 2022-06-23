@@ -561,12 +561,79 @@ a.tooltip-priority:first-of-type::before {
   color: var(--ct-query-header-color);
 }
 
+:root {
+  --ct-page-border-radius: 5px;
+
+  --ct-font-family: "Noto Sans SC", sans-serif;
+  --ct-page-title-font-family: Asap, "Noto Sans SC", sans-serif;
+  --ct-text-size: 1em;
+  --ct-line-height: 1.5;
+  --ls-font-family: var(--ct-font-family);
+
+  --ct-page-title-font-size: 36px;
+  --ct-page-title-line-height: 40px;
+  --ct-page-title-font-weight: 900;
+  --ct-page-title-font-style: normal;
+
+  --ct-heading-font-family: var(--ct-page-title-font-family);
+  --ct-heading-font-size: 25px;
+  --ct-heading-font-weight: 700;
+  --ct-heading-font-style: normal;
+
+  --ct-checkbox-border-radius: 2px;
+  --ct-task-done-text-decoration: none;
+
+  --ct-external-link-padding: 0 2px;
+  --ct-external-link-border-radius: 0;
+  --ct-external-link-text-decoration: none;
+  --ct-external-link-text-decoration-hover: none;
+  --ct-external-link-border-bottom: 1px solid;
+  --ct-external-link-border-bottom-hover: var(--ct-external-link-border-bottom);
+  --ct-external-link-text-decoration-inside-block-reference: none;
+  --ct-external-link-text-decoration-inside-block-reference-hover: none;
+  --ct-page-reference-border-radius: 2px;
+  --ct-page-reference-brackets-display: inline;
+  --ct-tag-padding: 2px;
+  --ct-tag-border-radius: 2px;
+  --ct-tag-opacity: 1;
+  --ct-tag-opacity-hover: 1;
+  --ct-block-reference-padding: 1px 5px;
+  --ct-block-reference-padding-inside-another: 0 0 0 0.25em;
+  --ct-block-reference-font-size: 0.95em;
+  --ct-block-reference-font-family: inherit;
+  --ct-block-reference-font-style: inherit;
+  --ct-block-reference-font-weight: inherit;
+  --ct-block-reference-border-bottom: 1px solid #789959;
+  --ct-block-reference-border-bottom-hover: 1px solid #5e7746;
+  --ct-mark-border-radius: 2px;
+  --ct-italics-font-weight: inherit;
+  --ct-italics-font-family: inherit;
+  --ct-bold-font-weight: 700;
+  --ct-bold-font-family: inherit;
+  --ct-code-font-family: "Fira Code", Monaco, Menlo, Consolas, "COURIER NEW",
+    monospace;
+  --ct-inline-code-font-size: 0.85em;
+  --ct-inline-code-font-style: inherit;
+  --ct-inline-code-border-radius: 2px;
+  --ct-inline-code-padding: 2px 5px;
+
+  --ct-sidebar-item-border: var(--ct-main-view-border);
+  --ct-sidebar-item-border-radius: 5px;
+  --ct-sidebar-title-font-family: var(--ct-page-title-font-family);
+
+  --ct-tag-shadow: 1px 1px rgb(136, 136, 136);
+
+  --ct-header-height: 50px;
+  --ct-topbar-backdrop: blur(20px);
+}
+
 /* query */
 
 .custom-query {
+  box-shadow: 0 0 0 2px var(--color-level-2-1);
   background: var(--ct-query-background);
   border-radius: 0.25rem;
-  padding: 0 1.5rem;
+  padding: 1rem 1.5rem;
   position: relative;
   margin-top: 0.5rem;
 }
@@ -574,7 +641,7 @@ a.tooltip-priority:first-of-type::before {
 .block-body .custom-query > .flex > div,
 #today-queries .custom-query > .flex > div,
 .dsl-query .custom-query > .flex > div {
-  padding: 12px 0;
+  padding: 10px 0;
 }
 
 .dsl-query > .custom-query .foldable-title .opacity-70,
@@ -585,10 +652,11 @@ a.tooltip-priority:first-of-type::before {
   padding: 5px 10px 2px 10px !important;
   background: var(--ct-query-header-background);
   color: var(--ct-query-header-color);
-  font-family: var(--ct-code-font-family);
-  font-size: var(--ct-inline-code-font-size);
-  font-style: var(--ct-inline-code-font-style) !important;
-  border-radius: var(--ct-inline-code-border-radius);
+  font-family: "Fira Code", Monaco, Menlo, Consolas, "COURIER NEW",
+  monospace;
+  font-size:  0.85em;
+  font-style: inherit !important;
+  border-radius: 2px;
   text-shadow: 1px 1px 0px black, 1px 1px 1px rgb(136, 136, 136);
 }
 
