@@ -188,6 +188,7 @@ a.tag:hover {
 
 .white-theme,
 html[data-theme=light] {
+  --ct-inline-code-color: #333;
   --ct-query-background: #fafafa;
   --ct-query-header-background: #789959;
   --ct-query-header-color: #fff;
@@ -318,6 +319,7 @@ html[data-theme=light] .extensions__code-lang {
 
 .dark-theme,
 html[data-theme=dark] {
+  --ct-inline-code-color: #c9d1d9;
   --ct-query-background: var(--ct-page-properties-background);
   --ct-query-header-background: #30403c;
   --ct-query-header-color: #fff;
@@ -676,4 +678,41 @@ a.tooltip-priority:first-of-type::before {
 }
 .foldable-title .page-ref:hover {
   color: var(--ct-query-result-page-title-hover);
+}
+
+.ls-block :is(h1, h2, h3, h4, h5)::after {
+  margin-left: 0.5rem;
+  font-family: "Fira Code", monospace;
+  font-size: 0.6rem;
+  font-style: inherit !important;
+  border-radius: 2px;
+  padding: 2px 5px !important;
+  background: var(--color-level-2);
+  color: var(--ct-inline-code-color);
+  vertical-align: middle;
+  opacity: 0.3;
+}
+
+.ls-block :is(h1, h2, h3, h4, h5):hover::after {
+  opacity: 1;
+}
+
+.ls-block h1::after {
+  content: "h1";
+}
+
+.ls-block h2::after {
+  content: "h2";
+}
+
+.ls-block h3::after {
+  content: "h3";
+}
+
+.ls-block h4::after {
+  content: "h4";
+}
+
+.ls-block h5::after {
+  content: "h5";
 }
